@@ -24,13 +24,12 @@ The input is read from the stdin here is an example:
     1
     3
     
- The first line specifies a filename that contains connections between cities. The following numbers are commands for specific operations:
+The first line specifies a filename that contains connections between cities. The following numbers are commands for specific operations:
+  '0' instructs the program to perform the BFS (Breadth-First Search) algorithm.
+  '1' is a directive to run Dijkstra's algorithm.
+  '3' signals the program to terminate.
 
-    '0' instructs the program to perform the BFS (Breadth-First Search) algorithm.
-    '1' is a directive to run Dijkstra's algorithm.
-    '3' signals the program to terminate.
-
- The city.in file details city connections and is structured as follows:
+The city.in file details city connections and is structured as follows:
 
     5
     6
@@ -40,10 +39,9 @@ The input is read from the stdin here is an example:
     1,3,10
     2,4,3
     3,4,1
-    
 
-    Where '5' indicates the total number of cities.
-    '6' represents the number of links between them.
-    Each line like '0,1,4' denotes a time of '4' between cities '0' and '1'. 
+  Where '5' indicates the total number of cities.
+  '6' represents the number of links between them.
+  Each line like '0,1,4' denotes a time of '4' between cities '0' and '1'. 
 
 
